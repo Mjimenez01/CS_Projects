@@ -1,7 +1,7 @@
 /*
  * University of Central Florida    
  * CAP 4630 - Fall 2018
- * Author(s): <Michael Jimenez, Chintip Winn>
+ * Author(s): <Michael Jimenez>
  */
 
 package multiclass;
@@ -158,7 +158,7 @@ public class MulticlassPerceptron implements weka.classifiers.Classifier{
 	}
 	
 	//applies the perceptron algorithm to predict the class	for	a particular instance. Returns the index for the predicted class index values range from 0
-	//to (data.numClasses() – 1) class 0 is the first class label encountered in the training set, class 1	is the second, and so on.
+	//to (data.numClasses() â€“ 1) class 0 is the first class label encountered in the training set, class 1	is the second, and so on.
 	public int predict(Instance instance){
 				
 		//This is the result from argmax(over all y)[weights * input].
