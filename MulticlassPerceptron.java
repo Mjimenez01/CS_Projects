@@ -26,7 +26,7 @@ public class MulticlassPerceptron implements weka.classifiers.Classifier{
 		
 		//Program Header
 		System.out.println("University of Central Florida\nCAP4630 Artifical Intelligence - Fall 2018\nMulti-Class Perceptron Classifier");
-		System.out.println("Author(s): Michael Jimenez (NID: MI535599), Chintip Winn (NID: CH539353)");
+		System.out.println("Author(s): Michael Jimenez (NID: MI535599)");
 		
 		FileName = args[0];
 		NumEpochs = Integer.parseInt(args[1]);
